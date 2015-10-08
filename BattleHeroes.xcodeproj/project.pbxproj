@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8A3B0EA1BC67278002F22AB /* Spiderman.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A3B0E91BC67278002F22AB /* Spiderman.swift */; settings = {ASSET_TAGS = (); }; };
+		E8A3B0EC1BC6AB05002F22AB /* Superman.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A3B0EB1BC6AB05002F22AB /* Superman.swift */; settings = {ASSET_TAGS = (); }; };
+		E8DA05331BC57D4200A518F8 /* ArenaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA05321BC57D4200A518F8 /* ArenaViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		E8DCA5FB1BC548330072E9AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA5FA1BC548330072E9AF /* AppDelegate.swift */; };
-		E8DCA5FD1BC548330072E9AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA5FC1BC548330072E9AF /* ViewController.swift */; };
 		E8DCA6001BC548330072E9AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA5FE1BC548330072E9AF /* Main.storyboard */; };
 		E8DCA6021BC548340072E9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA6011BC548340072E9AF /* Assets.xcassets */; };
 		E8DCA6051BC548340072E9AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DCA6031BC548340072E9AF /* LaunchScreen.storyboard */; };
+		E8DCA6101BC5499E0072E9AF /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA60F1BC5499D0072E9AF /* Hero.swift */; settings = {ASSET_TAGS = (); }; };
+		E8DCA6121BC561270072E9AF /* Batman.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA6111BC561270072E9AF /* Batman.swift */; settings = {ASSET_TAGS = (); }; };
+		E8DCA6141BC571780072E9AF /* Arena.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DCA6131BC571780072E9AF /* Arena.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E8A3B0E91BC67278002F22AB /* Spiderman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spiderman.swift; sourceTree = "<group>"; };
+		E8A3B0EB1BC6AB05002F22AB /* Superman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Superman.swift; sourceTree = "<group>"; };
+		E8DA05321BC57D4200A518F8 /* ArenaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArenaViewController.swift; sourceTree = "<group>"; };
 		E8DCA5F71BC548330072E9AF /* BattleHeroes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleHeroes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8DCA5FA1BC548330072E9AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8DCA5FC1BC548330072E9AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8DCA5FF1BC548330072E9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8DCA6011BC548340072E9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8DCA6041BC548340072E9AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8DCA6061BC548340072E9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DCA60F1BC5499D0072E9AF /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		E8DCA6111BC561270072E9AF /* Batman.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Batman.swift; sourceTree = "<group>"; };
+		E8DCA6131BC571780072E9AF /* Arena.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arena.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +64,27 @@
 		E8DCA5F91BC548330072E9AF /* BattleHeroes */ = {
 			isa = PBXGroup;
 			children = (
+				E8DCA60E1BC549880072E9AF /* Model */,
 				E8DCA5FA1BC548330072E9AF /* AppDelegate.swift */,
-				E8DCA5FC1BC548330072E9AF /* ViewController.swift */,
+				E8DA05321BC57D4200A518F8 /* ArenaViewController.swift */,
 				E8DCA5FE1BC548330072E9AF /* Main.storyboard */,
 				E8DCA6011BC548340072E9AF /* Assets.xcassets */,
 				E8DCA6031BC548340072E9AF /* LaunchScreen.storyboard */,
 				E8DCA6061BC548340072E9AF /* Info.plist */,
 			);
 			path = BattleHeroes;
+			sourceTree = "<group>";
+		};
+		E8DCA60E1BC549880072E9AF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E8DCA60F1BC5499D0072E9AF /* Hero.swift */,
+				E8DCA6111BC561270072E9AF /* Batman.swift */,
+				E8A3B0E91BC67278002F22AB /* Spiderman.swift */,
+				E8A3B0EB1BC6AB05002F22AB /* Superman.swift */,
+				E8DCA6131BC571780072E9AF /* Arena.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8DCA5FD1BC548330072E9AF /* ViewController.swift in Sources */,
+				E8DA05331BC57D4200A518F8 /* ArenaViewController.swift in Sources */,
 				E8DCA5FB1BC548330072E9AF /* AppDelegate.swift in Sources */,
+				E8DCA6141BC571780072E9AF /* Arena.swift in Sources */,
+				E8A3B0EC1BC6AB05002F22AB /* Superman.swift in Sources */,
+				E8DCA6121BC561270072E9AF /* Batman.swift in Sources */,
+				E8DCA6101BC5499E0072E9AF /* Hero.swift in Sources */,
+				E8A3B0EA1BC67278002F22AB /* Spiderman.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +312,7 @@
 				E8DCA60B1BC548340072E9AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
